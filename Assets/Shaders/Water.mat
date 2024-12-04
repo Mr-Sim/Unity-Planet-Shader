@@ -101,9 +101,14 @@ Material:
     - _EnvironmentReflections: 1
     - _FoamOffset: 0
     - _FoamSickness: 19.26
-    - _FoamSpeed: 0.1
+    - _FoamSpeed: 1
+    - _FoamThickness: 6
     - _FoamTiling: 1
     - _Foam_Direction: 0.5
+    - _Foam_Roughness: 154
+    - _Foam_RoughnessAmp: 179.3
+    - _Foam_RoughnessFreq: 0.04
+    - _Foam_Scale: 8.38
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -127,6 +132,7 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _Waves_Height: 0.2
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _angleVoronoi: 0.5
