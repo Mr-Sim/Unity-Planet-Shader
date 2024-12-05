@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cd701b9cbba27849ba441cfb123386a, type: 3}
   m_Name: PlanetTest
   m_EditorClassIdentifier: 
-  planetRadius: -100
+  planetRadius: 21.95

@@ -101,18 +101,18 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _BiomeScale: 2.43
+    - _BiomeScale: 2
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ContinentModifier: 9.73
+    - _ContinentModifier: 23.06
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Dividende: 247.8
+    - _Dividende: 3.4
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
@@ -120,33 +120,41 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _GradientContinent: 2.5
+    - _GrassHeight: 0.43
     - _Metallic: 0
-    - _Noise1_SCALE: 3.12
-    - _Noise2_SCALE: 30.3
-    - _Noise3_SCALE: 1.12
-    - _Noise4_SCALE: 452.9
-    - _NoiseScale: 88.5
+    - _Noise1_SCALE: 2.01
+    - _Noise2_SCALE: 1
+    - _Noise3_SCALE: 9.22
+    - _Noise4_SCALE: 113.29
+    - _NoiseScale: 37.43
     - _OcclusionStrength: 1
     - _OceanLevel: 0.518
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Radius: 20.9
+    - _Radius: 20
     - _ReceiveShadows: 1
+    - _RockHeight: 0.55
+    - _SandHeight: 0.16
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _SnowHeight: 0.8
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _Strength_Noise_1: 18.3
-    - _Strength_Noise_2: 22.1
-    - _Strength_Noise_3: 1.1
-    - _Strength_Noise_4: 0.65
+    - _Strength_Noise_1: 10
+    - _Strength_Noise_2: 8
+    - _Strength_Noise_3: 5
+    - _Strength_Noise_4: 2
     - _Surface: 0
+    - _TEST: 0
+    - _TerrainFadeSize: 445.4
+    - _TerrainFadeSize_1: 6
+    - _TerrainFadeStrength: -0.04
     - _VoronoiContinent: 2
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _bump: 4.1
+    - _bump: 4.5
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
