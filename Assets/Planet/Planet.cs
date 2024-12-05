@@ -5,7 +5,7 @@ using UnityEngine;
 public class Planet : MonoBehaviour
 {
     [SerializeField] Material m_material;
-    [SerializeField][Range(2, 256)] int m_resolution = 10;
+    [SerializeField][Range(2, 768)] int m_resolution = 10;
 
     [SerializeField] ShapeSettings m_shapeSettings;
     public ShapeSettings ShapeSettings { get => m_shapeSettings; }
@@ -45,6 +45,7 @@ public class Planet : MonoBehaviour
                 meshObj.AddComponent<MeshRenderer>().sharedMaterial = m_material;
                 m_meshFilters[i] = meshObj.AddComponent<MeshFilter>();
                 m_meshFilters[i].sharedMesh = new Mesh();
+                m_meshFilters[i].sharedMesh.indexFormat = UnityEngine.Rendering.IndexFormat.UInt32;
             }
 
             m_terrainFaces[i] = new TerrainFace(m_shapeGenerator, m_meshFilters[i].sharedMesh, m_resolution, directions[i]); 

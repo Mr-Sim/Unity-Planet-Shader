@@ -132,7 +132,7 @@ Material:
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Radius: 20
+    - _Radius: 21.8
     - _ReceiveShadows: 1
     - _RockHeight: 0.55
     - _SandHeight: 0.16
