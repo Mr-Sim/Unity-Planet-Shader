@@ -123,7 +123,7 @@ Material:
     - _RefractionStrength: 63.78
     - _Refraction_Scale: -0.01
     - _Refraction_Speed: -0.34
-    - _ScalePerlin: 2.2
+    - _ScalePerlin: -54.1
     - _SimpleNoiseRoughness: 0.41
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
